@@ -37,4 +37,19 @@ Logistic Regression	|0.4114	|0.1841	|0.2544	|0.8181 |
 Decision Tree	|0.9828	|0.9196	|0.9501	|0.9840 |
 Random Forest	|0.9942	|0.9196	|0.9554	|0.9858 |
 
+The winning model (Random Forest) was retrained on the training and validation set, and performed with a 99.35% precision, 92.57% recall, 95.84% f1 score, and 98.67% accuracy on the test set. The plot below shows that employee satisfaction, the number of projects they worked on, and the number of years they've already worked at the company (tenure) were the Top 3 most important factors in determining whether an employee would leave. 
+
+![image](https://github.com/user-attachments/assets/962cf8c1-f47f-46d9-8179-3641002f73ef)
+
+## Conclusion
+This model can benefit the HR department by helping them improve employee retention. Based on this analysis, leadership could:
+ - improve employee satisfaction by holding events to improve company culture
+ - cap the number of projects that employees can work on at the same time
+ - reward employees more for working longer hours, or don't require them to do so:
+     - make sure overtime policy, time off policy, and expected workload are clear to all employees
+     - ensure evaluations aren't reinforcing employees' belief they need to work more than 200 hours a month to get a good score.
+  
+In the future, adding more features to predict employee satisfaction could prove useful in helping the HR department address poor employee retention. 
+
+
 
