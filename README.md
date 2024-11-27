@@ -24,6 +24,7 @@ Department|The employee's department
 salary|The employee's salary (U.S. dollars)
 
 In addition, the bar chart below shows the breakdown of the percent of the employees that left versus those that stayed that exist in the data set.
+
 ![image](https://github.com/user-attachments/assets/82b4c9b7-582d-4d6e-a636-82933d494fbe)
 
 Features were renamed and irrelevant columns were dropped after exploratory data analysis. The final features included in the models were satisfaction, last_eval, num_proj, average_monthly_hours, tenure, and salary, with the outcome variable as left.
